@@ -1,20 +1,51 @@
+
+
 html {
 	box-sizing: border-box;
 }
 
-*,*:before, *:after {
-	box-sizing: inherit;
+*, *:before, *:after {
+	box-sizing:inherit;
 }
 body {background-color: #34a0d5;
 	color: white;
 	font-family: Verdana, sans-serif;
-	font-size: 17px;}
+	font-size: 15px;
+	font-weight: 300;
+	}
 
 ul {list-style: none;}
 
+input {background-color: #34a0d5;
+		border: 3px solid white;
+		display: flex;
+		font-family: Verdana, sans-serif;
+		font-style: 
+		height: 20px;
+		width: 300px;
+		padding:20px;
+		color:white;
+		font-size: 15px;
 
-.AppForm {display: flex;}
+	}
+input[type=text]:hover {border: 3px solid #3705eb;
+		}
+
+
+.AppForm {display: flex;
+		align-items: stretch;
+		}
 
 .Appcolumn {width:400px;
 			height: 700px;
 			}
+.country {}
+
+.affiliations {}
+
+text area {font-family: sans-serif;
+					font-size: 100%;
+					line-height: 1.15;
+					margin: 0;
+					min-height: 50px;
+					min-width: 300px;}
