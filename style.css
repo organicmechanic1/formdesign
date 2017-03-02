@@ -20,14 +20,21 @@ input {background-color: #34a0d5;
 		border: 3px solid white;
 		display: flex;
 		font-family: Verdana, sans-serif;
-		font-style: 
+		font-style: italic;
 		height: 20px;
 		width: 300px;
 		padding:20px;
 		color:white;
 		font-size: 15px;
+}
 
-	}
+select {background-color: #34a0d5;
+		height: 20px;
+		width: 300px;
+		text-decoration: white;
+		color: white;
+		font-size: }
+
 input[type=text]:hover {border: 3px solid #3705eb;
 		}
 
@@ -39,7 +46,6 @@ input[type=text]:hover {border: 3px solid #3705eb;
 .Appcolumn {width:400px;
 			height: 700px;
 			}
-.country {}
 
 .affiliations {}
 
