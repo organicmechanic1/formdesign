@@ -7,51 +7,52 @@ html {
 *, *:before, *:after {
 	box-sizing:inherit;
 }
-body {background-color: #34a0d5;
+body {background: rgb(92, 163, 214);
 	color: white;
 	font-family: Verdana, sans-serif;
 	font-size: 15px;
 	font-weight: 300;
-	}
-
-ul {list-style: none;}
-
-input {background-color: #34a0d5;
-		border: 3px solid white;
-		display: flex;
-		font-family: Verdana, sans-serif;
-		font-style: italic;
-		height: 20px;
-		width: 300px;
-		padding:20px;
-		color:white;
-		font-size: 15px;
 }
 
-select {background-color: #34a0d5;
-		height: 20px;
-		width: 300px;
-		text-decoration: white;
-		color: white;
-		font-size: }
+form {
+	display: flex;
 
-input[type=text]:hover {border: 3px solid #3705eb;
-		}
+}
 
+label {
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	margin:30px 0 5px;
+}
 
-.AppForm {display: flex;
-		align-items: stretch;
-		}
+input{
+	padding:10px;
+	font-size: 18px;
+}
 
-.Appcolumn {width:400px;
-			height: 700px;
-			}
+textarea {
+	height: 150px;
+}
 
-.affiliations {}
+input, textarea, select {
+	background: transparent;
+	width: 300px;
+	border: 2px solid white;
+	color: white;
+}
 
-text area {font-family: sans-serif;
-					font-size: 100%;
-					line-height: 1.15;
-					margin: 0;
-					min-height: 50px;
-					min-width: 300px;}
+div {
+	margin:10px 30px;
+
+}
+
+input:focus, textarea:focus {
+	outline: 0;
+	border:2px solid rgb(41,104,149);
+}
+
+::-webkit-input-placeholder {
+	color: rgb(41,104,149);
+	font-style:italic;
+}

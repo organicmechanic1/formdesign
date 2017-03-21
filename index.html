@@ -1,13 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="normalize.css">
-<link rel="stylesheet" href="style.css">
+
 <head>
 	<meta charset="UTF-8">
 	<title>formdesign</title>
+	<link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 	<body>
-		<ul class="AppForm">
+		<form>
+			<div>
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" placeholder="John" />
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" placeholder="Doe" />
+
+				<label for="email">Email Address</label>
+				<input type="email" id="email" placeholder="John@doe.com" />
+
+				<label for="country">Country</label>
+				<select id="country">
+					<option value="none">Select a Country</option>
+					<option value="USA">USA</option>
+					<option value="France">France</option>
+					<option value="Italy">Italy</option>
+					<option value="Portugal">Portugal</option>
+				</select>
+
+				<label for="biography">Biography</label>
+				<textarea id="biography"></textarea>
+			</div>
+			<div>
+				<label for="phone">Phone Number</label>
+				<input type="tel" id="phone" placeholder="+351 999 9999" />
+
+				<label for="affiliation">Affiliation</label>
+				<textarea id="affiliation"></textarea>
+
+				<label for "occupation">Occupation</label>
+				<select id="occupation">
+					<option value="none">Select an occupation</option>
+					<option value="alcoholic">Beer Drinker</option>
+					<option value="fencer">Sword Master</option>
+					<option value="Hamburgler">Robber</option>
+				</select>
+
+				<label for="catsname">Cat's Name</label>
+				<input id="catsname" type="text" placeholder="Kitty" />
+
+				<label for="gadget">Favorite Gadget</label>
+				<input id="gadget" type="text" placeholder="Annoy-a-tron" />
+			</div>
+			<div>
+
+				<label for="talent">Type of Talent</label>
+		
+				<select id="talent">
+					<option value="none">Choose a Talent</option>
+					<option value="juggling">Juggling</option>
+					<option value="stripper">Stripper</option>
+					<option value="farmer">Farmer</option>
+				</select>
+
+				<label for="drink">Favorite Drink</label>
+				<input id="drink"  type="text" placeholder="Green Tea" />
+
+				<label for "power">Special Power</label>
+				<input id="power" type="text" placeholder="Anti-gravity" />
+
+				<label for="weapon">Weapon of Choice</label>
+				<input id="weapon" type="text" placeholder="Lightsaber">
+
+				<label for="comments">Comments</label>
+				<textarea id="comments"></textarea>
+			</div>
+		</form>
+	</body>
+</html>	 
+	<!--	<ul class="AppForm">
 			<li class="Appcolumn">
 				<form>
 				FIRST NAME<br>
@@ -17,11 +88,12 @@
 				EMAIL ADDRESS<br>
 				<input type="email" name="email"/><br>
 				COUNTRY<br>
-					<select name="COUNTRY" value="Choose a country">
+					<select name="COUNTRY">
+						<option value="country">Choose a country</option>
 						<option value="France">France</option>
 						<option value="Italy">Italy</option>
 						<option value="Portugal">Portugul</option>
-						</select>
+					</select>
 						<br>
 				<div class="biography">BIOGRAPHY<br>
 				<textarea>
@@ -38,7 +110,9 @@
 				</textarea><br>
 				</div>
 				OCCUPATION<br>
-					<select name="OCCUPATION" value="Choose an occupation"><option value="developer">Developer</option>
+					<select name="OCCUPATION" >
+					<option value="occupation">Choose an occupation</option>
+					<option value="developer">Developer</option>
 					<option value="Accountant">Accountant</option>
 					<option value="cheerleader">Cheer Leader</option>
 					</select><br>
@@ -61,8 +135,8 @@
 				</form>		
 							
 			</li>
-		</ul>
-	</body>
+		</ul> -->
+	
  		
 
 
